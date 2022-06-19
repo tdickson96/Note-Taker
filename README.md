@@ -1,16 +1,19 @@
 # 11 Express.js: Note Taker
 
+## About
+
+GitHub repository: https://github.com/tdickson96/Note-Taker
+Heroku: 
+
 ## Your Task
 
 Create apiRoutes and htmlRoutes. Create save and delete button. Currently, lack of routes, save and delete button.
-
 
 ## User Story
 
 ```
 As a small business owner, I want a note taking application to keep track of titles and body text.
 ```
-
 
 ## Mock-Up
 
