@@ -9,6 +9,7 @@
   "homepage": "https://github.com/tdickson96/Note-Taker",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "uuid": "^8.3.2"
   }
 }
