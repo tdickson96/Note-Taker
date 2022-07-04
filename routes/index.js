@@ -1,19 +1,10 @@
-// requirements
-const express = require("express");
-const path = require("path");
+// Requirements
+const express = require('express');
+// Notes routes
+const notesRouter = require('./notes');
 
-// express
-const indexRoute = express.Router();
+const api = express();
 
-// set notes to notes.html
-indexRoute.get("/notes", (req, res) =>
-  res.sendFile(path.join(__dirname, "../public/notes.html"))
-);
+api.use('/notes', notesRouter);
 
-// set wildcard to homepage/index.html
-indexRoute.get("*", (req, res) =>
-  res.sendFile(path.join(__dirname, "../public/index.html"))
-);
-
-// export to use in other files
-module.exports = indexRoute;
+module.exports = api;
