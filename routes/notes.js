@@ -16,9 +16,9 @@ api.post('/', (req, res) => {
         };
 
         readAndAppend(newNote, './db/db.json');
-        res.json(`Note added successfully`);
+        res.json(`Note added.`);
     } else {
-        res.error('Error in adding note');
+        res.error('Error adding note.');
     }
 });
 
@@ -26,9 +26,9 @@ api.delete('/:id', (req, res) => {
     const { id } = req.params;
     if (id) {
         readFilterAndAppend('./db/db.json', id);
-        res.json(`Note deleted successfully`);
+        res.json(`Note deleted.`);
     } else {
-        res.error('Error in deleting note');
+        res.error('Error deleting note.');
     }
 });
 
