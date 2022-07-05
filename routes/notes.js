@@ -2,10 +2,12 @@ const api = require('express').Router();
 const { readFromFile, readAndAppend, readFilterAndAppend } = require('../helpers/fsUtils');
 const { v4: uuidv4 } = require('uuid');
 
+// Read note
 api.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
+// Post note and add to list
 api.post('/', (req, res) => {
     const { title, text } = req.body;
     if (req.body) {
@@ -22,6 +24,7 @@ api.post('/', (req, res) => {
     }
 });
 
+// Delete note
 api.delete('/:id', (req, res) => {
     const { id } = req.params;
     if (id) {
