@@ -1,9 +1,12 @@
-{
-    "notes": [
-        {
-            "title":"This is a Title",
-            "text":"This is a text box!",
-            "id": "abc123"
-        }
-    ]
-}
+[
+    {
+        "title": "Test",
+        "text": "test",
+        "id": "ax2ny743-5f3j-6yas7-l727-89sdfjkn6"
+    },
+    {
+        "title": "Testing",
+        "text": "testing",
+        "id": "4325jlk2-y780-09qv-pol-05u7das45"
+    }
+]

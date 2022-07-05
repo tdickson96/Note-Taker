@@ -7,7 +7,7 @@ Heroku: https://secret-brushlands-73213.herokuapp.com/notes
 
 ## Your Task
 
-Create apiRoutes and htmlRoutes. Create save and delete button. Currently, lack of routes, save and delete button.
+Create apiRoutes and htmlRoutes. Create save and delete button. 
 
 ## User Story
 
@@ -19,9 +19,9 @@ As a small business owner, I want a note taking application to keep track of tit
 
 The following images show the web application's appearance and functionality:
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./images/index.png)
+![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./assets/images/index.png)
 
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./images/notes.png)
+![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./assets/images/notes.png)
 
 
 ## Getting Started

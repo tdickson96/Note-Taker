@@ -1,12 +1,12 @@
 {
-  "name": "note-taker",
+  "name": "note-taker-app",
   "version": "1.0.0",
-  "description": "A note-taking application that saves, edits and deletes notes.",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/tdickson96/Note-Taker",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
