@@ -3,7 +3,8 @@
 ## About
 
 GitHub repository: https://github.com/tdickson96/Note-Taker
-Heroku: https://secret-brushlands-73213.herokuapp.com/notes 
+
+Heroku: https://note-taker-example.herokuapp.com/notes 
 
 ## Your Task
 
