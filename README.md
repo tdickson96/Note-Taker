@@ -2,28 +2,27 @@
 
 ## About
 
-GitHub repository: https://github.com/tdickson96/Note-Taker
-
-Heroku: https://note-taker-example.herokuapp.com/notes 
-
-## Your Task
-
-Create apiRoutes and htmlRoutes. Create save and delete button. 
-
-## User Story
-
 ```
 As a small business owner, I want a note taking application to keep track of titles and body text.
 ```
 
-## Mock-Up
+GitHub repository: https://github.com/tdickson96/Note-Taker
 
-The following images show the web application's appearance and functionality:
+Heroku: https://note-taker-example.herokuapp.com/notes 
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./assets/images/index.png)
+## Usage
 
-![Note titled “Balance accounts” reads, “Balance account books by end of day Monday,” with other notes listed on the left.](./assets/images/notes.png)
+![demo](./assets/images/demo0.png)
 
+![demo](./assets/images/demo1.png)
+
+![demo](./assets/images/demo2.png)
+
+![demo](./assets/images/demo3.png)
+
+![demo](./assets/images/demo4.png)
+
+![demo](./assets/images/demo5.png)
 
 ## Getting Started
 
